@@ -1,10 +1,11 @@
 function plot_set(dataset)
-    %FUNÇÃO PARA PLOTAR UM CONJUNTO DE DADOS
+    %FUNï¿½ï¿½O PARA PLOTAR UM CONJUNTO DE DADOS
     %USAR COMO INPUT(dataset) Dx, exemplo:
-    %plot_set(D24) -> gera as curvas para corrente, tensão e pulsos do
+    %plot_set(D24) -> gera as curvas para corrente, tensï¿½o e pulsos do
     %encoder para Vcc = 24v
     data=dataset;
     
+
     if(length(data) >=3)
         comprimento = 4;
         titulo = {'V_m(t)', 'I_m(t)', 'Encoder(t)', 'Velocidade(rpm)'};
